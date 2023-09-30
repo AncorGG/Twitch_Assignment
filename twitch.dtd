@@ -2,6 +2,7 @@
 <!ELEMENT categories (recommended_games,other_categories)>
 <!ELEMENT recommended_games (game+)>
 <!ELEMENT game (#PCDATA)>
+<!ATTLIST game id CDATA #REQUIRED>
 <!ELEMENT other_categories (other+)>
 <!ELEMENT other (#PCDATA)>
 <!ELEMENT streamers (streamer*)>
