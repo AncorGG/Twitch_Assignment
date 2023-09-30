@@ -1,7 +1,11 @@
 
 <h1 align="center">Twitch Activity</h1>
 
-If you like this Repo, Please click the :star:
+
+<h3 align="center">class asignment based on twitch's basic structure</h3>
+
+<h3 align="center">If you like this Repo, Please click the :star:</h3>
+
 
 # Twitch XML & DTD
 
@@ -25,6 +29,8 @@ The activity was done as part of my studies in
   </ol>
 </details>
 
+
+
 ## About The Project
 
 The goal of this activity is to learn how to develope a quick and simple xml and a dtd,
@@ -34,10 +40,11 @@ Twitch. Also, part of the dificulty of this assignment was to upload it to GitHu
 ### Getting Started
 
 The way this was developed was with the use of tools such as Visual Studio Code and following the
-basic structure of XML
+basic structure of XML tags:
 
 ```shell
 # File example:
+
 <tag attribute"value">
 
 content
