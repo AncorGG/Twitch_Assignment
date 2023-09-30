@@ -2,8 +2,8 @@
 <twitch>
     <categories>
         <recommended_games>
-            <game>Pokemon FireRed Version</game>
-            <game>Cyberpunk</game>
+            <game id="2051613">Pokemon FireRed Version</game>
+            <game id="2512343">Cyberpunk</game>
         </recommended_games>
         <other_categories>
             <other>Software and Game Development</other>
