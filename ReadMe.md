@@ -2,9 +2,9 @@
 <h1 align="center">Twitch Activity</h1>
 
 
-<h3 align="center">class asignment based on twitch's basic structure</h3>
+<h5 align="center">class asignment based on twitch's basic structure</h3>
 
-<h3 align="center">If you like this Repo, Please click the :star:</h3>
+<h5 align="center">If you like this Repo, Please click the :star:</h3>
 
 
 # Twitch XML & DTD
@@ -37,7 +37,7 @@ The goal of this activity is to learn how to develope a quick and simple xml and
 we could choose the themes ourselves and I chose to do it about the videogame-streaming platform
 Twitch. Also, part of the dificulty of this assignment was to upload it to GitHub.
 
-### Getting Started
+## Getting Started
 
 The way this was developed was with the use of tools such as Visual Studio Code and following the
 basic structure of XML tags:
@@ -52,16 +52,15 @@ content
 </tag>
 ```
 
-## Tools
+### Tools
 
 - [Visual Studio Code](https://code.visualstudio.com) - Used for developing the code.
 
 - [Git](https://code.visualstudio.com) - Used for source code management.
 
-## Authors
+## Author
 
-  - **Ancor García** - Author -
-    [AncorGG](https://github.com/AncorGG)
+**Ancor García** - [AncorGG](https://github.com/AncorGG)
 
 ## Acknowledgments
 
