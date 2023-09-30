@@ -1,0 +1,34 @@
+<!DOCTYPE twitch SYSTEM "twitch.dtd">
+<twitch>
+    <categories>
+        <recommended_games>
+            <game>Pokemon FireRed Version</game>
+            <game>Cyberpunk</game>
+        </recommended_games>
+        <other_categories>
+            <other>Software and Game Development</other>
+        </other_categories>
+    </categories>
+    <streamers>
+        <streamer xmlns:stm="https://www.twitch.tv/streamer_username/">
+            <stm:username>Arkevp</stm:username>
+            <stm:viewers>7.2k</stm:viewers>
+            <stm:language>Español</stm:language>
+            <stm:subscriptions>20</stm:subscriptions>
+            <stm:tags>
+                <stm:tag>Art</stm:tag>
+            </stm:tags>
+            <stm:url>https://www.twitch.tv/Arkevp/</stm:url>
+        </streamer>
+    </streamers>
+    <users>
+        <user xmlns:usr="https://www.twitch.tv/username/">
+            <usr:username>Miova</usr:username>
+            <usr:encrypted_password>k4un45~#@€jmq-@#542</usr:encrypted_password>
+            <usr:language>Español</usr:language>
+            <usr:sub_chanels>
+                <usr:sub_chanel>Arkevp</usr:sub_chanel>
+            </usr:sub_chanels>
+        </user>
+    </users>
+</twitch>
