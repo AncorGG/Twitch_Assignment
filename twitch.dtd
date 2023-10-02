@@ -1,12 +1,13 @@
-<!ELEMENT twitch (categories,streamers,users)>
-<!ELEMENT categories (recommended_games,other_categories)>
-<!ELEMENT recommended_games (game+)>
-<!ELEMENT game (#PCDATA)>
-<!ATTLIST game id CDATA #REQUIRED>
-<!ELEMENT other_categories (other+)>
-<!ELEMENT other (#PCDATA)>
-<!ELEMENT streamers (streamer*)>
-<!ATTLIST streamers xmlns:stm CDATA #REQUIRED>
+<!ELEMENT twitch (streams)>
+<!ATTLIST twitch xmlns:stm CDATA #REQUIRED>
+<!ATTLIST twitch xmlns:usr CDATA #REQUIRED>
+<!ELEMENT streams (stream*)>
+<!ELEMENT stream (categories,streamer,viewers_users)>
+<!ELEMENT categories (category+)>
+<!ELEMENT category (category_name,trending_rank)>
+<!ELEMENT category_name (#PCDATA)>
+<!ELEMENT trending_rank (#PCDATA)>
+<!ATTLIST category id CDATA #REQUIRED>
 <!ELEMENT streamer (stm:username,stm:viewers,stm:language,stm:subscriptions,stm:tags,stm:url)>
 <!ELEMENT stm:username (#PCDATA)>
 <!ELEMENT stm:viewers (#PCDATA)>
@@ -15,11 +16,10 @@
 <!ELEMENT stm:tags (stm:tag+)>
 <!ELEMENT stm:tag (#PCDATA)>
 <!ELEMENT stm:url (#PCDATA)>
-<!ELEMENT users (user*)>
-<!ATTLIST users xmlns:usr CDATA #REQUIRED>
-<!ELEMENT user (usr:username,usr:encrypted_password,usr:language,usr:sub_chanels)>
+<!ELEMENT viewers_users (user*)>
+<!ELEMENT user (usr:username,usr:last_message?,usr:language,usr:sub_chanels)>
 <!ELEMENT usr:username (#PCDATA)>
-<!ELEMENT usr:encrypted_password (#PCDATA)>
+<!ELEMENT usr:last_message (#PCDATA)>
 <!ELEMENT usr:language (#PCDATA)>
-<!ELEMENT usr:sub_chanels (usr:sub_chanel)>
+<!ELEMENT usr:sub_chanels (usr:sub_chanel*)>
 <!ELEMENT usr:sub_chanel (#PCDATA)>
