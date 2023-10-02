@@ -2,7 +2,6 @@
 <twitch xmlns:stm="https://www.twitch.tv/streamer_username/"  xmlns:usr="https://www.twitch.tv/username/">
     <streams>
         <stream>
-
             <categories>
                 <category id="2051613">
                     <category_name>Pokemon Fire Red</category_name>
@@ -13,7 +12,6 @@
                     <trending_rank>2</trending_rank>
                 </category>
             </categories>
-
             <streamer>
                 <stm:username>Arkevp</stm:username>
                 <stm:viewers>7.2k</stm:viewers>
@@ -24,18 +22,24 @@
                 </stm:tags>
                 <stm:url>https://www.twitch.tv/Arkevp/</stm:url>
             </streamer>
-
             <viewers_users>
                 <user>
                     <usr:username>Miova</usr:username>
                     <usr:last_message>Hello world!</usr:last_message>
-                    <usr:language>Español</usr:language>
+                    <usr:language>Spanish</usr:language>
+                    <usr:sub_chanels>
+                        <usr:sub_chanel>Arkevp</usr:sub_chanel>
+                    </usr:sub_chanels>
+                </user>
+                <user>
+                    <usr:username>Erizomovil</usr:username>
+                    <usr:last_message>Hell! Hell!</usr:last_message>
+                    <usr:language>English</usr:language>
                     <usr:sub_chanels>
                         <usr:sub_chanel>Arkevp</usr:sub_chanel>
                     </usr:sub_chanels>
                 </user>
             </viewers_users>
-
         </stream>
     </streams>
 </twitch>
