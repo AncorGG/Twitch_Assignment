@@ -6,8 +6,8 @@
 <!ELEMENT other_categories (other+)>
 <!ELEMENT other (#PCDATA)>
 <!ELEMENT streamers (streamer*)>
+<!ATTLIST streamers xmlns:stm CDATA #REQUIRED>
 <!ELEMENT streamer (stm:username,stm:viewers,stm:language,stm:subscriptions,stm:tags,stm:url)>
-<!ATTLIST streamer xmlns:stm CDATA #REQUIRED>
 <!ELEMENT stm:username (#PCDATA)>
 <!ELEMENT stm:viewers (#PCDATA)>
 <!ELEMENT stm:language (#PCDATA)>
@@ -16,8 +16,8 @@
 <!ELEMENT stm:tag (#PCDATA)>
 <!ELEMENT stm:url (#PCDATA)>
 <!ELEMENT users (user*)>
+<!ATTLIST users xmlns:usr CDATA #REQUIRED>
 <!ELEMENT user (usr:username,usr:encrypted_password,usr:language,usr:sub_chanels)>
-<!ATTLIST user xmlns:usr CDATA #REQUIRED>
 <!ELEMENT usr:username (#PCDATA)>
 <!ELEMENT usr:encrypted_password (#PCDATA)>
 <!ELEMENT usr:language (#PCDATA)>
