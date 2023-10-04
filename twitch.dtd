@@ -17,7 +17,7 @@
 <!ELEMENT stm:tag (#PCDATA)>
 <!ELEMENT stm:url (#PCDATA)>
 <!ELEMENT viewers_users (user*)>
-<!ELEMENT user (usr:username,usr:last_message?,usr:language,usr:sub_chanels)>
+<!ELEMENT user (usr:username,usr:last_message?,usr:language,usr:sub_chanels?)>
 <!ELEMENT usr:username (#PCDATA)>
 <!ELEMENT usr:last_message (#PCDATA)>
 <!ELEMENT usr:language (#PCDATA)>
